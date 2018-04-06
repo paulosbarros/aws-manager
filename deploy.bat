@@ -1,0 +1,1 @@
+mvn install && copy /b/v/y C:\Java\estudos\aws-manager\target\*.war ..\..\wildfly\standalone\deployments

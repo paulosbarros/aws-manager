@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="ISO-8859-1">
+	<title>AWS Manager</title>
+	</head>
+	<body>
+		<button id="get-instances">Active Instances</button>
+		<br>
+		<input type="text" id="get-instance-by-id-value">
+		<button id="get-instance-by-id">Get Instance</button>		
+		<br>
+		<input type="text" id="create-instance-type">
+		<input type="text" id="create-instance-ami">
+		<button id="create-instance-by-type-and-ami">Create Instance</button>
+		<br>
+		<input type="text" id="delete-instance-by-id-value">
+		<button id="delete-instance-by-id">Delete Instance</button>		
+		<br>
+		<div id="output"></div>
+	</body>
+	<script src="javascript/aws-manager-requests.js"></script>
+	<script src="javascript/index.js"></script>
+</html>
